@@ -22,19 +22,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-admins = {}
+admins = {689061386}
 OLD_PMS = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
+API_ID = int(getenv("API_ID", "2677896"))
+API_HASH = getenv("API_HASH", "7f37813fa807d4df7ccd358218a25d51")
+BOT_TOKEN = getenv("BOT_TOKEN", "5027615920:AAHb9zt9a_zYZn64MGxJkkd6nThxjYcVdGA")
+SESSION_STRING = getenv("SESSION_STRING", "BQDArq2nS3bfQeEUepVD-rxj7qLpOKwkTC-rgnyW2BIWoiKtgYsfImHeSanPV4t1tcL73qYTAXewnb8mlrxvwJBzzrZHbgem_lICial4kIC1j__BrQPtCPSVn8mUDtubr-B5aeAaLpzJPNvru0nhHA9bCI-WnywubQGfYcbHWkTGEHuWhr7ylzzIDBxxxzg761RwCBjP--z3xz--27-0uQqpfePOucM43enaywe92yi-xcuKfeGeWhUZGbWs86_cD0a5JJA1iyZqFRaROLHkBkj7JcCaCzGcGCe3CedrXvu1f7UhBcAx4L4r2KkMAjdJCoZeNSTajqZ28IgAlpnEOEVEXL6vBgA")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AsmSupport")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "activ3")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "lol")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
